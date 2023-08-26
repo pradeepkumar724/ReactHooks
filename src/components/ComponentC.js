@@ -7,7 +7,7 @@ function ComponentC() {
 
   return (
     <div>
-      {/* Beclearst Way */}
+      {/* Best Way */}
       <h1>
         {value} {channel}
       </h1>
