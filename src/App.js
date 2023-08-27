@@ -14,6 +14,7 @@ import HookMouse from "./components/HookMouse";
 import IntervalClassCounter from "./components/IntervalClassCounter";
 import IntervalHookCounter from "./components/IntervalHookCounter";
 import MouseContainer from "./components/MouseContainer";
+import ReducerCountOne from "./components/ReducerCountOne";
 
 export const UserValue = React.createContext();
 export const UserChannel = React.createContext();
@@ -34,11 +35,12 @@ function App() {
       {/* <IntervalClassCounter />
       <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
-      <UserValue.Provider value={"Viswas"}>
+      {/* <UserValue.Provider value={"Viswas"}>
         <UserChannel.Provider value={"codevalution"}>
           <ComponentA />
         </UserChannel.Provider>
-      </UserValue.Provider>
+      </UserValue.Provider> */}
+      <ReducerCountOne />
     </div>
   );
 }
