@@ -1,5 +1,7 @@
 import "./App.css";
+import CounterMemo from "./components/CounterMemo";
 import DataFetchingOne from "./components/DataFetchingOne";
+import ParentComponent from "./components/ParentComponent";
 // import React, { useContext, useReducer } from "react";
 // import ComponentA from "./ComponentA";
 // import ClassClickCounter from "./components/ClassClickCounter";
@@ -71,7 +73,9 @@ function App() {
         <CounterB />
         <CounterC />
       </CountContext.Provider> */}
-      <DataFetchingOne />
+      {/* <DataFetchingOne /> */}
+      {/* <ParentComponent /> */}
+      <CounterMemo />
     </div>
   );
 }
