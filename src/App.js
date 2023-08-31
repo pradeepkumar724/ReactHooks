@@ -1,6 +1,8 @@
 import "./App.css";
 import CounterMemo from "./components/CounterMemo";
 import DataFetchingOne from "./components/DataFetchingOne";
+import HookTimer from "./components/HookTimer";
+import InputFocus from "./components/InputFocus";
 import ParentComponent from "./components/ParentComponent";
 // import React, { useContext, useReducer } from "react";
 // import ComponentA from "./ComponentA";
@@ -75,7 +77,9 @@ function App() {
       </CountContext.Provider> */}
       {/* <DataFetchingOne /> */}
       {/* <ParentComponent /> */}
-      <CounterMemo />
+      {/* <CounterMemo /> */}
+      {/* <InputFocus /> */}
+      <HookTimer />
     </div>
   );
 }
